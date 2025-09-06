@@ -20,8 +20,8 @@ model = ChatGroq(model="openai/gpt-oss-20b")
 from .tools import *
 
 from langchain.globals import set_verbose, set_debug
-# set_debug (True)
-# set_verbose (True)
+set_debug (True)
+set_verbose (True)
 
 
 
@@ -81,7 +81,3 @@ graph.add_conditional_edges("coder",
                             {"END": END, "coder": "coder"})
 graph.set_entry_point("planner")
 agent = graph.compile()
-
-# user_prompt = "Create a to-do list application using html, css, and javascript."
-# agent.invoke({"user_prompt": user_prompt},
-#             {"recursion_limit": 100})
