@@ -12,7 +12,7 @@ It works like a multi-agent development team that can take a natural language re
 - **Coder Agent** – Implements each task, writes directly into files, and uses available tools like a real developer.
 
 <div style="text-align: center;">
-    <img src="resources/coder_buddy_diagram.png" alt="Coder Agent Architecture" width="90%"/>
+    <img src="resources/codex.png" alt="Coder Agent Architecture" width="90%"/>
 </div>
 
 ---
