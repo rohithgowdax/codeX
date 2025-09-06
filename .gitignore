@@ -1,0 +1,48 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+*.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite3
+*.db
+*.egg-info/
+dist/
+build/
+*.bak
+*.swp
+*.swo
+*.tmp
+*.old
+*.orig
+# Jupyter Notebooks
+.ipynb_checkpoints/
+# macOS
+.DS_Store
+# VS Code
+.vscode/
+# Test and coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+coverage.xml
+nosetests.xml
+# mypy
+.mypy_cache/
+# pipenv
+Pipfile.lock
+# poetry
+poetry.lock
+# others
+*.secret
+*.pem
+*.crt
+*.key
